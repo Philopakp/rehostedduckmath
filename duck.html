@@ -54,7 +54,29 @@
     <link rel="icon" type="image/x-icon" href="./imgs/duck.webp" id="favicon" />
     <link rel="mask-icon" type="" href="./imgs/duck.webp" color="#111" />
 
-    <title>duck</title>
+    <title>Distributed Unit Calculator</title>
+  
+    <style>
+      @media print {
+        body *, #game-container, canvas, iframe {
+          display: none !important;
+        }
+        html, body {
+          display: block !important;
+          width: 100vw !important;
+          height: 100vh !important;
+          margin: 0 !important;
+          padding: 0 !important;
+          overflow: hidden !important;
+          background-image: url('/imgs/laughing-cat.gif') !important;
+          background-size: contain !important;
+          background-position: center !important;
+          background-repeat: no-repeat !important;
+          background-color: #000000 !important; 
+        }
+      }
+    </style>
+    
     <!-- Google tag (gtag.js) -->
     <script>
       (function () {
